@@ -28,8 +28,7 @@ function isValidDrop(x, y, width, height, areaId) {
     x <= 350 &&
     y >= 0 &&
     y <= 50 &&
-    width <= 100 &&
-    height <= 200
+    width <= 100
   ) {
     return true;
   } else if (x >= 500 && x <= 550 && y >= 0 && y <= 50 && width === 100) {
