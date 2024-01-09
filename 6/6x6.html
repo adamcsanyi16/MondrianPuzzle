@@ -72,6 +72,7 @@
           );
           droppedElement.style.left = `${closestPosition.x}px`;
           droppedElement.style.top = `${closestPosition.y}px`;
+          droppedElement.style.zIndex = "0";
 
           if (areaId === "play-area") {
             document.getElementById(areaId).appendChild(droppedElement);
